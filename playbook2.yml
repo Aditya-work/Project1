@@ -20,7 +20,7 @@
 
     - name: ensure docker and dependencies are installed
       apt: name=docker-ce update_cache=yes
-    
+
     - name: Install Docker Module for Python
       pip:
         name: docker
